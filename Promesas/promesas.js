@@ -28,9 +28,9 @@ const promise = new Promise((resolve,
 
 promise
     .then((successMessage) => {
-        console.log(successMessage) //Nos va a ayudar a ejecutar nuedtrp resultado desde la promesa
+        console.log(successMessage) //Nos va a ayudar a ejecutar nuedtro resultado desde la promesa.
     })
-    .catch((errorMessage) => { //Em caso de que no se resulve le catch nos funvion para ver cual fue el error y el porqur no se ejecuto la promesa
+    .catch((errorMessage) => { //En caso de que no se resulva, el catch nos funciona para ver cual fue el error y el porque no se ejecuto la promesa.
         console.log(errorMessage)
     })
 
